@@ -1,0 +1,93 @@
+body {background-color: #003249;}
+
+p {font-weight: lighter;}
+
+button:active {transform:translateY(3px);}
+
+button:focus {outline:0;}
+
+.thatplay {
+	width: 18px;
+	height: 200px;
+  text-align: right;
+  font-size: 50px;
+  background-color: white;
+  font-family: "Calibri";
+	display: inline-block;
+}
+
+.display {
+  width: 580px;
+  height: 200px;
+  text-align: right;
+  font-size: 50px;
+  background-color: white;
+  font-family: "Calibri";
+	display: inline-block;
+}
+
+.numpad {
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Calibri";
+  border-color: #003249;
+  background-color: #007EA7;
+  color: white;
+}
+
+.numpad:hover {
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Calibri";
+  border-color: #003249;
+  background-color: #2E95B7;
+  color: white;
+}
+
+.operatorbutton {
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Calibri";
+  border-color: #003249;
+  background-color: #80CED7;
+  color: white;
+}
+
+.operatorbutton:hover {
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Calibri";
+  border-color: #003249;
+  background-color: #97D6DE;
+  color: white;
+}
+
+.miscbutton {
+  height: 100px;
+  width: 200px;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Calibri";
+  border-color: #003249;
+  background-color: #DDDDDD;
+  color: black;
+}
+
+.miscbutton:hover {
+  height: 100px;
+  width: 200px;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Calibri";
+  border-color: #003249;
+  background-color: #EFEFEF;
+  color: black;
+}
