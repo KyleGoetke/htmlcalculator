@@ -1,4 +1,4 @@
-# htmlcalculator
+# HTML Calculator
 
 ### Created for APSCP
 * Basic calculator functions
