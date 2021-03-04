@@ -1,4 +1,4 @@
-# HTML Calculator
+# JavaScript Calculator
 
 ### Created for APSCP
 
