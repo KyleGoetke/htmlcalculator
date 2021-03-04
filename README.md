@@ -1,5 +1,5 @@
 # htmlcalculator
 
-### Created for AP Computer Science Principles
+### Created for APSCP
 * Basic calculator functions
 * Percent function (divides by 100)
