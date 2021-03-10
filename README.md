@@ -1,8 +1,14 @@
 # JavaScript Calculator
 
-### Created for APSCP
+### Originally created for APSCP
 
 Basic calculator written in JavaScript with an HTML/CSS front-end
 
-* Basic calculator functions
+Functions:
+* Addition
+* Subtraction
+* Multiplication
+* Division
+* Switch betwen negative & positive
+* Clear All
 * Percent function (divides by 100)
