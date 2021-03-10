@@ -9,6 +9,6 @@ Functions:
 * Subtraction
 * Multiplication
 * Division
-* Switch betwen negative & positive
+* Switch between negative & positive
 * Clear All
 * Percent function (divides by 100)
