@@ -1,93 +1,79 @@
-body {background-color: #003249;}
+body {
+  background-color: #333333;
+  font-family: -apple-system, BlinkMacSystemFont, Calibri, Segoe UI, Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  color: black;
+  padding-top: 10px;
+}
 
-p {font-weight: lighter;}
+button:active {
+  transform: translateY(1px);
+}
 
-button:active {transform:translateY(3px);}
+button:focus,
+input:focus {
+  outline: 0;
+}
 
-button:focus {outline:0;}
-
-.thatplay {
-	width: 18px;
-	height: 200px;
+#screen {
+  width: 31ch;
+  height: 150px;
   text-align: right;
-  font-size: 50px;
   background-color: white;
-  font-family: "Calibri";
-	display: inline-block;
+  display: inline-block;
+  font-size: inherit;
+  border: 2px solid black;
+  color: black;
 }
 
-.display {
-  width: 580px;
-  height: 200px;
+#output {
+  width: 96%;
+  height: 98%;
   text-align: right;
-  font-size: 50px;
   background-color: white;
-  font-family: "Calibri";
-	display: inline-block;
+  display: inline-block;
+  font-size: inherit;
+  color: black;
+  border: 0px solid black;
 }
 
-.numpad {
-  height: 150px;
-  width: 150px;
+#row1 button {
+  height: 75px;
+  width: 10.4ch;
   text-align: center;
-  font-size: 50px;
-  font-family: "Calibri";
-  border-color: #003249;
-  background-color: #007EA7;
-  color: white;
-}
-
-.numpad:hover {
-  height: 150px;
-  width: 150px;
-  text-align: center;
-  font-size: 50px;
-  font-family: "Calibri";
-  border-color: #003249;
-  background-color: #2E95B7;
-  color: white;
-}
-
-.operatorbutton {
-  height: 150px;
-  width: 150px;
-  text-align: center;
-  font-size: 50px;
-  font-family: "Calibri";
-  border-color: #003249;
-  background-color: #80CED7;
-  color: white;
-}
-
-.operatorbutton:hover {
-  height: 150px;
-  width: 150px;
-  text-align: center;
-  font-size: 50px;
-  font-family: "Calibri";
-  border-color: #003249;
-  background-color: #97D6DE;
-  color: white;
-}
-
-.miscbutton {
-  height: 100px;
-  width: 200px;
-  text-align: center;
-  font-size: 50px;
-  font-family: "Calibri";
-  border-color: #003249;
+  font-size: 30px;
+  border: 2px solid black;
   background-color: #DDDDDD;
-  color: black;
+  font-family: inherit;
+  display: inline-block;
 }
 
-.miscbutton:hover {
-  height: 100px;
-  width: 200px;
+#lowertable button {
+  height: 107px;
+  width: 7.8ch;
   text-align: center;
-  font-size: 50px;
-  font-family: "Calibri";
-  border-color: #003249;
+  font-size: inherit;
+  border: 2px solid black;
+  color: white;
+  font-family: inherit;
+}
+
+.regbutton {
+  background-color: #007EA7;
+}
+
+.regbutton:hover {
+  background-color: #2E95B7;
+}
+
+.sidebutton {
+  background-color: #80CED7;
+}
+
+.sidebutton:hover {
+  background-color: #97D6DE;
+}
+
+#row1 button:hover {
   background-color: #EFEFEF;
-  color: black;
 }
